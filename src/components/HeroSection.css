@@ -1,0 +1,48 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 0;
+  background: linear-gradient(120deg, #2a2a2a, #1d1d1d);
+}
+
+.content {
+  margin-left: 12px;
+  max-width: 600px;
+}
+
+.content h1 {
+  font-size: 3rem;
+}
+
+
+.content p {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+
+.profileimage img {
+  height: 70vh;
+  width: auto;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-right: 12px;
+}
+
+@media (max-width: 768px) {
+  .footer-socials {
+    flex-direction: column;
+    /* Stack social links vertically on small screens */
+    gap: 15px;
+    /* Reduce gap between links */
+  }
+
+  .profileimage img {
+    height: 30vh;
+    width: auto;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-right: 12px;
+  }
+}
