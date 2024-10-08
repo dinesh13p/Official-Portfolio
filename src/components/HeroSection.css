@@ -7,18 +7,20 @@
 }
 
 .content {
-  margin-left: 12px;
+  /* margin-left: 0px; */
   max-width: 600px;
 }
 
 .content h1 {
   font-size: 3rem;
+  margin-left:.5rem;
 }
 
 
 .content p {
   font-size: 2rem;
   margin-top: 1rem;
+  margin-left:.5rem;
 }
 
 
@@ -27,7 +29,7 @@
   width: auto;
   border-radius: 50%;
   border: 5px solid #fff;
-  margin-right: 12px;
+  margin-right: .5rem;
 }
 
 @media (max-width: 768px) {
