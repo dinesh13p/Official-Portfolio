@@ -17,7 +17,7 @@ const Contact = (props) => {
 
   return (
     <section id="contact" className="contact">
-      <h2>--Contact me--</h2>
+      <h2>_Contact me_</h2>
       <h3>Fill up this form:-</h3>
 
       <form className="form-container" onSubmit={handleSubmit}>

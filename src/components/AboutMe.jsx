@@ -4,7 +4,7 @@ import './AboutMe.css';
 const AboutMe = () => {
   return (
     <section className="about-me" id="about">
-      <h2>--About me--</h2>
+      <h2>_About me_</h2>
       <p>
         Hello there!🙋🏻‍♂️  I'm a student pursuing BCA from Nepathya college affiliated to Tribhuvan University.
         I possess strong proficiency in HTML, CSS, and Bootstrap, with an intermediate level of expertise in C, JavaScript and React.

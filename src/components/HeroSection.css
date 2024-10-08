@@ -25,7 +25,7 @@
 
 
 .profileimage img {
-  height: 70vh;
+  height: 60vh;
   width: auto;
   border-radius: 50%;
   border: 5px solid #fff;
@@ -41,7 +41,7 @@
   }
 
   .profileimage img {
-    height: 30vh;
+    height: 25vh;
     width: auto;
     border-radius: 50%;
     border: 5px solid #fff;
